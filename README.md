@@ -1,4 +1,6 @@
-# GoStack10.0-Desafio-02, enunciado do desafio: 
+<h2 align="center">
+GoStack10.0-Desafio-02, enunciado do desafio: 
+</h2>
 
 <h1 align="center">
   <img alt="Fastfeet" title="Fastfeet" src="logo.png" width="300px" />
