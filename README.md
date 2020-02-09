@@ -2,90 +2,20 @@
 GoStack10.0-Desafio-02 
 </h2>
 
-<h3 align="left">
-Conceitos abordados:  
-</h3>
+------
 
-<p>
-  1. Migration a DB SQL.</br>
-  2. Criação de Models.</br>
-  3. Criação de Controllers (POST / PUT / GET / DELETE).</br>
-  3. Gerando Hash de senha.</br>
-  4. Autenticação/Middleware de sessão JWT.</br>
-  5. Validação de dados de cadastro via schema YUP.</br>
-</p>
+**Conceitos abordados:**
 
+1. Migration a DB SQL.</br>
+2. Criação de Models.</br>
+3. Criação de Controllers (POST / PUT / GET / DELETE).</br>
+3. Gerando Hash de senha.</br>
+4. Autenticação/Middleware de sessão JWT.</br>
+5. Validação de dados de cadastro via schema YUP.</br>
 
-###**Construção do projeto:**  
+------
 
-**Criação do projeto**
-1. Iniciando o projeto.
-   1. Criar src/app.js
-   2. Configurar express server e adicionar atualização automática:
-      ```
-      yarn add express
-      yarn add nodemon -D
-      ```
-   3. Criar server.js e routes.js
-   
-2. Nodemon & Sucrase
-   1. Para utilizar a nova sintaxe do JS dentro do NodeJS:
-   2. Atualizar package.json, launch.json</br>
-   3. Criar nodemon.json</br>
-      ```
-      yarn add sucrase -D
-      ```
-      
-3. Conceitos do Docker
-   1. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).
-      1. https://docs.docker.com/install/
-   2. Criar um serviço do docker em Postgres
-      1. https://hub.docker.com/_/postgres
-      2. Terminal:
-         ```
-         docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres
-         ```
-      3. Containers em execução: docker ps
-      4. Todos os Containers:    docker ps -a
-   3. Download Postbird: https://electronjs.org/apps/postbird
-      1. Create Database: Fastfeet
-      
-4. Sequelize & MVC
-   1. Sequelize: ORM NodeJS para DB's relacionais (MySQL, Postgres, SQLite).
-      1. Tabelas viram models.
-      2. Migrations: Cada arquivo contém instruções para criação, alteração ou remoção de tabelas ou colunas.
-      3. Seeds: População de DB para **desenvolvimento**.
-      
-5. ESLint, Prettier & EditorConfig
-   1. ESLint: "linting" do código (uso do padrão AirBNB).
-      ```
-      yarn add eslint -D
-      yarn eslint --init
-      ```
-      1. Delete package-lock.json, yarn.
-      2. Instalar extensão eslint no VSCode, alterar settings.json, .eslintrc.js.
-   2. Prettier: Formatação de código.
-      ```
-      yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
-      ```
-      1. alterar .eslintrc.js, criar .prettierrc e EditorConfig.
-      
-6. Configurando Sequelize
-   1. Criar src/config/database.js, src/database/migrations, app/controllers, app/models.
-      ```
-      yarn add sequelize
-      yarn add sequelize-cli -D
-      yarn add pg pg-hstore
-      ```
-   2. Criar .sequelizerc e alterar database.js
-
-
-
-
-
-<h3 align="left">
-Enunciado do desafio: 
-</h3>
+**Enunciado do desafio:**
 
 <h1 align="center">
   <img alt="Fastfeet" title="Fastfeet" src="logo.png" width="300px" />
@@ -205,3 +135,72 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+
+------
+
+**Criação do projeto**
+1. Iniciando o projeto.
+   1. Criar src/app.js
+   2. Configurar express server e adicionar atualização automática:
+      ```
+      yarn add express
+      yarn add nodemon -D
+      ```
+   3. Criar server.js e routes.js
+   
+2. Nodemon & Sucrase
+   1. Para utilizar a nova sintaxe do JS dentro do NodeJS:
+   2. Atualizar package.json, launch.json</br>
+   3. Criar nodemon.json</br>
+      ```
+      yarn add sucrase -D
+      ```
+      
+3. Conceitos do Docker
+   1. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).
+      1. https://docs.docker.com/install/
+   2. Criar um serviço do docker em Postgres
+      1. https://hub.docker.com/_/postgres
+      2. Terminal:
+         ```
+         docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres
+         ```
+      3. Containers em execução: docker ps
+      4. Todos os Containers:    docker ps -a
+   3. Download Postbird: https://electronjs.org/apps/postbird
+      1. Create Database: Fastfeet
+      
+4. Sequelize & MVC
+   1. Sequelize: ORM NodeJS para DB's relacionais (MySQL, Postgres, SQLite).
+      1. Tabelas viram models.
+      2. Migrations: Cada arquivo contém instruções para criação, alteração ou remoção de tabelas ou colunas.
+      3. Seeds: População de DB para **desenvolvimento**.
+      
+5. ESLint, Prettier & EditorConfig
+   1. ESLint: "linting" do código (uso do padrão AirBNB).
+      ```
+      yarn add eslint -D
+      yarn eslint --init
+      ```
+      1. Delete package-lock.json, yarn.
+      2. Instalar extensão eslint no VSCode, alterar settings.json, .eslintrc.js.
+   2. Prettier: Formatação de código.
+      ```
+      yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+      ```
+      1. alterar .eslintrc.js, criar .prettierrc e EditorConfig.
+      
+6. Configurando Sequelize
+   1. Criar src/config/database.js, src/database/migrations, app/controllers, app/models.
+      ```
+      yarn add sequelize
+      yarn add sequelize-cli -D
+      yarn add pg pg-hstore
+      ```
+   2. Criar .sequelizerc e alterar database.js
+
+
+
+
+
+
