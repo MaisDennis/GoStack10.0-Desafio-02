@@ -1,8 +1,8 @@
-<h2 align="center">
+<h2 align="left">
 GoStack10.0-Desafio-02 
 </h2>
 
-<h3 align="center">
+<h3 align="left">
 Conceitos abordados:  
 </h3>
 
@@ -15,9 +15,9 @@ Conceitos abordados:
   5. Validação de dados de cadastro via schema YUP.</br>
 </p>
 
-<h2 align="center">
+<h3 align="left">
 Enunciado do desafio: 
-</h2>
+</h3>
 
 <h1 align="center">
   <img alt="Fastfeet" title="Fastfeet" src="logo.png" width="300px" />
