@@ -220,7 +220,39 @@ Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discorda
        yarn add bcryptjs
        ```
     2. Alterar models/User.js
+    
+12. Autenticação JWT
+    1. Criar SessionController.js
+    2. Instalar o gerador de token JWT.
+       ```
+       yarn add jsonwebtoken
+       ```
+    3. Criar o método checkPassword() no model User.js
+    4. Gerar Hash aleatório: https://www.md5online.org/
+    5. Criar config/auth.js, alterar User.js, SessionController.js, Routes.js
 
+13. Middleware de autenticação
+    1. Bloquear User ao acessar algum tipo de rota se ele ainda não estiver logado.
+    2. Criar método update no UserController.js.
+    3. Criar app/middlewares/auth.js.
+    4. Criar middleware global em routes.js
+    
+14. Update de usuário
+
+15. Validando dados de entrada
+    1. Biblioteca yup: schema validation - forma simples de definir os campos presentes no campo da req e passa através de funções o tipo daquele campo. Ex: é uma string, obrigatório, no mínimo 6 letras.
+    2. Add Yup
+       ```
+       yarn add yup
+       ```
+    3. UserController.js
+       1. Criar métodos Store e Update.
+    4. SessionController.js
+       1. Criar método Store.
+    
+    
+    
+    
 
 
 
