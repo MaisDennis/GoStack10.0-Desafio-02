@@ -134,7 +134,8 @@ Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discorda
 
 ------
 
-**Criação do projeto**
+<h3>Criação do projeto</h3>
+
 1. Iniciando o projeto.
    1. Criar src/app.js
    2. Configurar express server e adicionar atualização automática:
