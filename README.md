@@ -2,7 +2,7 @@
 GoStack10.0-Desafio-02 
 </h2>
 
-<h3>
+<h3 align="center">
 Conceitos abordados:  
 </h3>
 
