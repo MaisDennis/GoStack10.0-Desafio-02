@@ -22,10 +22,10 @@ Conceitos abordados:
 1. Iniciando o projeto.
    1. Criar src/app.js
    2. Configurar express server e adicionar atualização automática:
-```
-    yarn add express
-    yarn add nodemon -D
-```
+      ```
+      yarn add express
+      yarn add nodemon -D
+      ```
    3. Criar server.js e routes.js
    
 2. Nodemon & Sucrase
