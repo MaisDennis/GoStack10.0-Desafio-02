@@ -1,5 +1,22 @@
 <h2 align="center">
-GoStack10.0-Desafio-02, enunciado do desafio: 
+GoStack10.0-Desafio-02 
+</h2>
+
+<h3>
+Conceitos abordados:  
+</h3>
+
+<p>
+  1. Migration a DB SQL.</br>
+  2. Criação de Models.</br>
+  3. Criação de Controllers (POST / PUT / GET / DELETE).</br>
+  3. Gerando Hash de senha.</br>
+  4. Autenticação/Middleware de sessão JWT.</br>
+  5. Validação de dados de cadastro via schema YUP.</br>
+</p>
+
+<h2 align="center">
+Enunciado do desafio: 
 </h2>
 
 <h1 align="center">
