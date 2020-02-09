@@ -21,10 +21,8 @@ Conceitos abordados:
 **Criação do projeto**
 1. Criar src/app.js
 2. Configurar express server e adicionar atualização automática:
-```
-   yarn add express
-   yarn add nodemon -D
-```
+```yarn add express
+   yarn add nodemon -D```
 3. Criar server.js e routes.js
 4. Para utilizar a nova sintaxe do JS dentro do NodeJS:</br>
    4.1. Atualizar package.json, launch.json</br>
