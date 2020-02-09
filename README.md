@@ -1,7 +1,7 @@
 # GoStack10.0-Desafio-02, enunciado do desafio: 
 
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src="github.com/MaisDennis/GoStack10.0-Desafio-02/tree/master/logo.png" width="300px" />
+  <img alt="Fastfeet" title="Fastfeet" src="logo.png" width="300px" />
 </h1>
 
 <h3 align="center">
