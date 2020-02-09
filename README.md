@@ -204,6 +204,11 @@ Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discorda
       yarn sequelize db:migrate:undo
       yarn sequelize db:migrate:undo:all
       ```
+   2. Criar Seeds:
+      ```
+      yarn sequelize seed:generate --name admin-user
+      yarn sequelize db:seed:all
+      ```
       
 8. Models
 
