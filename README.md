@@ -30,11 +30,11 @@ Markup: 1. Criar src/app.js
 ```
     yarn add sucrase -D
 ```
-    1. Atualizar package.json, launch.json
-    2. Criar nodemon.json
+   4.1. Atualizar package.json, launch.json
+   4.2. Criar nodemon.json
  
 5. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).</br>
-    5.1 https://docs.docker.com/install/
+   5.1 https://docs.docker.com/install/
 
 
 
