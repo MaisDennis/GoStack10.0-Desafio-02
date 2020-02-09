@@ -134,7 +134,7 @@ Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discorda
 
 ------
 
-<h3>Criação do projeto</h3>
+<h3>Criação do projeto:</h3>
 
 1. Iniciando o projeto.
    1. Criar src/app.js
@@ -249,12 +249,4 @@ Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discorda
        1. Criar métodos Store e Update.
     4. SessionController.js
        1. Criar método Store.
-    
-    
-    
-    
-
-
-
-
-
+       
