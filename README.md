@@ -19,22 +19,24 @@ Conceitos abordados:
 ###**Construção do projeto:**  
 
 **Criação do projeto**
-Markup: 1. Criar src/app.js
+1. Criar src/app.js
+
 2. Configurar express server e adicionar atualização automática:
 ```
-    yarn add express
-    yarn add nodemon -D
+   yarn add express
+   yarn add nodemon -D
 ```
 3. Criar server.js e routes.js
-4. Para utilizar a nova sintaxe do JS dentro do NodeJS:
+
+4. Para utilizar a nova sintaxe do JS dentro do NodeJS:</br>
+   4.1. Atualizar package.json, launch.json</br>
+   4.2. Criar nodemon.json</br>
 ```
-    yarn add sucrase -D
+   yarn add sucrase -D
 ```
-   4.1. Atualizar package.json, launch.json
-   4.2. Criar nodemon.json
  
 5. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).</br>
-   5.1 https://docs.docker.com/install/
+   5.1. https://docs.docker.com/install/
 
 
 
