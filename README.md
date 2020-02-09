@@ -27,16 +27,24 @@ Conceitos abordados:
       yarn add nodemon -D
       ```
    3. Criar server.js e routes.js
+   
 2. Nodemon & Sucrase
-   1. Para utilizar a nova sintaxe do JS dentro do NodeJS:</br>
+   1. Para utilizar a nova sintaxe do JS dentro do NodeJS:
    2. Atualizar package.json, launch.json</br>
    3. Criar nodemon.json</br>
       ```
       yarn add sucrase -D
       ```
-3. Docker
-   1. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).</br>
+      
+3. Conceitos do Docker
+   1. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).
       1. https://docs.docker.com/install/
+   2. Criar um serviço do docker em Postgres
+      1. https://hub.docker.com/_/postgres
+      2. Terminal:
+         ```
+         docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres
+         ```
 
 
 
