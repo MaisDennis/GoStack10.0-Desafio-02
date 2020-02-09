@@ -1,10 +1,6 @@
-<h2 align="left">
-GoStack10.0-Desafio-02 
-</h2>
+<h2>GoStack10.0-Desafio-02 </h2>
 
-------
-
-**Conceitos abordados:**
+<h3>Conceitos abordados:</h3>
 
 1. Migration a DB SQL.</br>
 2. Criação de Models.</br>
