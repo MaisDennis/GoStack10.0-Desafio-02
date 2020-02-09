@@ -19,7 +19,7 @@ Conceitos abordados:
 ###**Construção do projeto:**  
 
 **Criação do projeto**
-1. Criar src/app.js
+Markup: 1. Criar src/app.js
 2. Configurar express server e adicionar atualização automática:
 ```
     yarn add express
@@ -30,10 +30,11 @@ Conceitos abordados:
 ```
     yarn add sucrase -D
 ```
-  i. Atualizar package.json, launch.json</br>
-  ii. Criar nodemon.json</br>
+    1. Atualizar package.json, launch.json
+    2. Criar nodemon.json
+ 
 5. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).</br>
-  5.1 https://docs.docker.com/install/
+    5.1 https://docs.docker.com/install/
 
 
 
