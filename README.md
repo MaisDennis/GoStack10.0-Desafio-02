@@ -49,11 +49,35 @@ Conceitos abordados:
       4. Todos os Containers:    docker ps -a
    3. Download Postbird: https://electronjs.org/apps/postbird
       1. Create Database: Fastfeet
+      
 4. Sequelize & MVC
    1. Sequelize: ORM NodeJS para DB's relacionais (MySQL, Postgres, SQLite).
       1. Tabelas viram models.
       2. Migrations: Cada arquivo contém instruções para criação, alteração ou remoção de tabelas ou colunas.
       3. Seeds: População de DB para **desenvolvimento**.
+      
+5. ESLint, Prettier & EditorConfig
+   1. ESLint: "linting" do código (uso do padrão AirBNB).
+      ```
+      yarn add eslint -D
+      yarn eslint --init
+      ```
+      1. Delete package-lock.json, yarn.
+      2. Instalar extensão eslint no VSCode, alterar settings.json, .eslintrc.js.
+   2. Prettier: Formatação de código.
+      ```
+      yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+      ```
+      1. alterar .eslintrc.js, criar .prettierrc e EditorConfig.
+      
+6. Configurando Sequelize
+   1. Criar src/config/database.js, src/database/migrations, app/controllers, app/models.
+      ```
+      yarn add sequelize
+      yarn add sequelize-cli -D
+      yarn add pg pg-hstore
+      ```
+   2. Criar .sequelizerc e alterar database.js
 
 
 
