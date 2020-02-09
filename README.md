@@ -30,8 +30,8 @@ Conceitos abordados:
 ```
     yarn add sucrase -D
 ```
-  4.1 Atualizar package.json, launch.json</br>
-  4.2 Criar nodemon.json</br>
+  i. Atualizar package.json, launch.json</br>
+  ii. Criar nodemon.json</br>
 5. Instalar Docker para a criação de containers (para DB, notifications e envio de e-mails).</br>
   5.1 https://docs.docker.com/install/
 
