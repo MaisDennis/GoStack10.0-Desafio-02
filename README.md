@@ -195,6 +195,31 @@ Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discorda
       yarn add pg pg-hstore
       ```
    2. Criar .sequelizerc e alterar database.js
+   
+7. Migration
+   1. Criar tabelas, migrate, undo, undo all
+      ```
+      yarn sequelize migration:create --name=create-users
+      yarn sequelize db:migrate
+      yarn sequelize db:migrate:undo
+      yarn sequelize db:migrate:undo:all
+      ```
+      
+8. Models
+
+9. Loader de models
+   1. Criar database/index.js, alterar app.js, routes.js
+
+10. Cadastro de usuários
+    1. Criar controllers/UserController.js, alterar routes.js
+    2. Insomnia: Criar Workspace: Fastfeet, pasta: Users, Request: POST
+ 
+11. Gerando Hash de senha
+    1. Gerar Hash e criptografar a senha
+       ```
+       yarn add bcryptjs
+       ```
+    2. Alterar models/User.js
 
 
 
