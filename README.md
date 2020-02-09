@@ -45,7 +45,15 @@ Conceitos abordados:
          ```
          docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres
          ```
-
+      3. Containers em execução: docker ps
+      4. Todos os Containers:    docker ps -a
+   3. Download Postbird: https://electronjs.org/apps/postbird
+      1. Create Database: Fastfeet
+4. Sequelize & MVC
+   1. Sequelize: ORM NodeJS para DB's relacionais (MySQL, Postgres, SQLite).
+      1. Tabelas viram models.
+      2. Migrations: Cada arquivo contém instruções para criação, alteração ou remoção de tabelas ou colunas.
+      3. Seeds: População de DB para **desenvolvimento**.
 
 
 
