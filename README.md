@@ -10,12 +10,12 @@
 5. Validação de dados de cadastro via schema YUP.</br>
 
 </br>
-<h2>Iniciando o projeto</h2>
+<h2>Iniciando o projeto:</h2>
 
 1.  docker start database3
 2.  yarn dev
 3.  Iniciar Insomnia
-4.  Iniciar postbird
+4.  Iniciar Postbird (Port: 5434)
 
 </br>
 <h2>Enunciado do desafio:</h2>
