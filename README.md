@@ -1,6 +1,6 @@
 # GoStack10.0 || Desafio-02
 
-* [1. Conceitos abordados](#1-conceitos)
+* [1. Conceitos abordados](#1-conceitos-abordados)
 * [2. Iniciando o projeto](#2-iniciando-o-projeto)
 
 ##  1.  Conceitos abordados:
