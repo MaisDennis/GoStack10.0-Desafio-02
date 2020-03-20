@@ -144,7 +144,7 @@
        1. Criar método Store.
  
  
- ##  4.  Enunciado do desafio
+ ##  4. Enunciado do desafio
 
 <h1 align="center">
   <img alt="Fastfeet" title="Fastfeet" src="logo.png" width="300px" />
