@@ -1,6 +1,9 @@
-<h1>GoStack10.0-Desafio-02</h1>
-</br>
-<h2>Conceitos abordados:</h2>
+# GoStack10.0 || Desafio-02
+
+* [1. Conceitos abordados](#1-conceitos)
+* [2. Iniciando o projeto](#2-iniciando-o-projeto)
+
+##  1.  Conceitos abordados:
 
 1. Migration a DB SQL.</br>
 2. Criação de Models.</br>
@@ -9,8 +12,8 @@
 4. Autenticação/Middleware de sessão JWT.</br>
 5. Validação de dados de cadastro via schema YUP.</br>
 
-</br>
-<h2>Iniciando o projeto:</h2>
+
+##  2. Iniciando o projeto
 
 1.  docker start database3
 2.  yarn dev
