@@ -2,8 +2,8 @@
 
 * [1. Conceitos abordados](#1-conceitos-abordados)
 * [2. Iniciando o projeto](#2-iniciando-o-projeto)
-* [3. Criando o projeto](#2-criando-o-projeto)
-* [4. Enunciado do desafio](#2-enunciado-do-desafio)
+* [3. Criando o projeto](#3-criando-o-projeto)
+* [4. Enunciado do desafio](#4-enunciado-do-desafio)
 
 ##  1.  Conceitos abordados:
 
