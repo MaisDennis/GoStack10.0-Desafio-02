@@ -5,7 +5,7 @@
 * [3. Criando o projeto](#3-criando-o-projeto)
 * [4. Enunciado do desafio](#4-enunciado-do-desafio)
 
-##  1.  Conceitos abordados:
+##  1. Conceitos abordados:
 
 1. Migration a DB SQL.</br>
 2. Criação de Models.</br>
@@ -22,7 +22,7 @@
 3.  Iniciar Insomnia
 4.  Iniciar Postbird (Port: 5434)
 
-##  3.  Criando o projeto
+##  3. Criando o projeto
 
 1. Iniciando o projeto.
    1. Criar src/app.js
